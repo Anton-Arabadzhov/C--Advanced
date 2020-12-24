@@ -60,7 +60,7 @@ namespace shuntingYard
 
                         if (OldElementArity >= elementArity)
                         {
-                            output += operatorStack.Pop() + " ";
+                            output += operatorStack.Pop() + " "; 
                         }
                     }
                     operatorStack.Push(expression[i]);
